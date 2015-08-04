@@ -18,7 +18,7 @@ module.exports = {
           return context.distDir;
         },
         deleteFirst: false,
-        overwrite: false,
+        overwrite: true,
         confirm: true,
         filter: undefined,
 

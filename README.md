@@ -92,7 +92,7 @@ Delete the [destDir](#destdir) with `rimraf` before the files are copied.
 
 If the destination exists, overwrite it.
 
-*Default:* `false`
+*Default:* `true`
 
 ### confirm
 
