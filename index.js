@@ -20,7 +20,7 @@ module.exports = {
         deleteFirst: false,
         overwrite: true,
         confirm: true,
-        filter: undefined,
+        filePattern: undefined,
 
         didDeployMessage: function(context){
           if (context.revisionKey) {
@@ -32,7 +32,7 @@ module.exports = {
       configure: function(/* context */) {
         this.log('validating config');
 
-        ['distDir', 'deleteFirst', 'overwrite', 'confirm', 'didDeployMessage', 'filter'].forEach(this.applyDefaultConfigProperty.bind(this));
+        ['distDir', 'deleteFirst', 'overwrite', 'confirm', 'didDeployMessage', 'filePattern'].forEach(this.applyDefaultConfigProperty.bind(this));
 
         this.log('config ok');
       },
@@ -47,8 +47,8 @@ module.exports = {
           confirm: this.readConfig('confirm')
         };
 
-        if(this.readConfig('filter') !== undefined) {
-          options.filter = this.readConfig('filter');
+        if(this.readConfig('filePattern') !== undefined) {
+          options.filter = this.readConfig('filePattern');
         }
 
         return new Promise(function(resolve, reject) {

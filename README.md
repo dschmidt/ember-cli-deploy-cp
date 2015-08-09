@@ -100,7 +100,7 @@ After the copy operation, stat all the files and report errors if any are missin
 
 *Default:* `true`
 
-### filter
+### filePattern
 
 `RegExp` or `function` to test each file against before copying.
 
