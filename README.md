@@ -104,8 +104,21 @@ After the copy operation, stat all the files and report errors if any are missin
 
 `RegExp` or `function` to test each file against before copying.
 
-*Default:* `undefined`
+*Default:* `undefined`  
+*Example:*  
+Because of the way ember-cli-deploy handles default config values internally, you need to provide a factory function as [filePattern](#filepattern) instead of the filter function directly.
 
+```javascript
+/*
+ * Don't copy index.html 
+ */
+filePattern: function (/* context */) {
+  return function(filePath) {
+    var indexPattern = "index.html";
+    return !(filePath.indexOf(indexPattern, filePath.length - indexPattern.length) !== -1);
+  };
+}
+```
 
 ## Prerequisites
 
