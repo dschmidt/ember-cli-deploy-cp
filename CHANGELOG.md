@@ -1,0 +1,5 @@
+# ember-cli-deploy-cp Changelog
+
+### 0.0.1
+
+Initial release.
