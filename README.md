@@ -77,8 +77,8 @@ A message that will be displayed after the distDir has been copied to destDir.
 *Default:*
 
 ```javascript
-if (context.revisionKey) {
-  return "Copied revision " + context.revisionKey + ".";
+if (context.revisionData.revisionKey) {
+  return "Copied revision " + context.revisionData.revisionKey + ".";
 }
 ```
 
@@ -125,6 +125,7 @@ filePattern: function (/* context */) {
 The following properties are expected to be present on the deployment `context` object:
 
 - `distDir`                     (provided by [ember-cli-deploy-build][3])
+- `revisionData.revisionKey`    (provided by [ember-cli-deploy-revision-data][4])
 
 ## Running Tests
 
@@ -137,3 +138,4 @@ Tests ... right?
 [1]: https://github.com/davglass/cpr "cpr"
 [2]: http://ember-cli.github.io/ember-cli-deploy/plugins "Plugin Documentation"
 [3]: https://github.com/zapnito/ember-cli-deploy-build "ember-cli-deploy-build"
+[4]: https://github.com/zapnito/ember-cli-deploy-revision-data "ember-cli-deploy-revision-data"

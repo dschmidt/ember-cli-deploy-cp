@@ -23,8 +23,9 @@ module.exports = {
         filePattern: undefined,
 
         didDeployMessage: function(context){
-          if (context.revisionKey) {
-            return "Copied revision " + context.revisionKey + ".";
+          var revisionKey = context.revisionData && context.revisionData.revisionKey;
+          if (revisionKey) {
+            return "Copied revision " + revisionKey + ".";
           }
         },
       },
