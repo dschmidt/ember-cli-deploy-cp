@@ -1,5 +1,10 @@
 # ember-cli-deploy-cp Changelog
 
+### 0.2.0
+
+- support current ember-cli-deploy-revision-data
+- support current ember-cli-deploy-plugin
+
 ### 0.1.3
 
 - Set repo url in package.json
