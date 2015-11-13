@@ -1,5 +1,9 @@
 # ember-cli-deploy-cp Changelog
 
+### 0.3.0
+
+- keep old assets to support the lightning deployment approach
+
 ### 0.2.0
 
 - support current ember-cli-deploy-revision-data
