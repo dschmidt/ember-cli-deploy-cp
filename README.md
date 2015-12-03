@@ -2,9 +2,7 @@
 
 > An ember-cli-deploy-plugin to copy your built assets on your filesystem
 
-<hr/>
-**WARNING: This plugin is only compatible with ember-cli-deploy versions >= 0.5.0**
-<hr/>
+[![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-cli-deploy-cp.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/)
 
 This plugin uses [cpr][1] to copy built assets on your filesystem. It basically supports all its options.
 
