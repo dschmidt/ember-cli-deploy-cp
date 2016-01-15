@@ -26,9 +26,9 @@ $ ember install ember-cli-deploy-cp
 - Place the following configuration into `config/deploy.js`
 
 ```javascript
-ENV.cp {
+ENV.cp = {
   destDir: '/srv/www/htdocs/'
-}
+};
 ```
 
 - Run the pipeline
