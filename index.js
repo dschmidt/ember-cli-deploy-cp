@@ -2,10 +2,10 @@
 'use strict';
 
 
-var Promise   = require('ember-cli/lib/ext/promise');
+var Promise          = require('rsvp').Promise;
 var DeployPluginBase = require('ember-cli-deploy-plugin');
-var cpr = require('cpr');
-var SilentError         = require('silent-error');
+var cpr              = require('cpr');
+var SilentError      = require('silent-error');
 
 module.exports = {
   name: 'ember-cli-deploy-cp',
