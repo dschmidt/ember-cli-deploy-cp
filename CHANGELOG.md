@@ -1,5 +1,9 @@
 # ember-cli-deploy-cp Changelog
 
+### 0.3.1
+
+- Fix ember-cli/lib/ext/promise deprecation
+
 ### 0.3.0
 
 - keep old assets to support the lightning deployment approach
