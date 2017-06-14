@@ -135,5 +135,5 @@ Tests ... right?
 
 [1]: https://github.com/davglass/cpr "cpr"
 [2]: http://ember-cli.github.io/ember-cli-deploy/plugins "Plugin Documentation"
-[3]: https://github.com/zapnito/ember-cli-deploy-build "ember-cli-deploy-build"
-[4]: https://github.com/zapnito/ember-cli-deploy-revision-data "ember-cli-deploy-revision-data"
+[3]: https://github.com/ember-cli-deploy/ember-cli-deploy-build "ember-cli-deploy-build"
+[4]: https://github.com/ember-cli-deploy/ember-cli-deploy-revision-data "ember-cli-deploy-revision-data"
