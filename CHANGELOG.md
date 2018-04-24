@@ -1,5 +1,9 @@
 # ember-cli-deploy-cp Changelog
 
+### 0.3.2
+
+- Make ember-cli-babel a dev dependency [#13]
+
 ### 0.3.1
 
 - Fix ember-cli/lib/ext/promise deprecation

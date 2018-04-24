@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-cp",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Ember CLI Deploy plugin to deploy file(s) on your filesystem.",
   "directories": {
     "doc": "doc",
